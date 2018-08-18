@@ -1,5 +1,7 @@
 {
   "name": "rssi-demo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

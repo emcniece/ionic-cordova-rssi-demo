@@ -1,14 +1,25 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      RSSI Demo
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <p>Demonstrates cordova-plugin-rssi.</p>
+
+  <button ion-button (click)="fetch()">Read RSSI Data</button>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>RSSI</ion-label>
+      <ion-note item-end>{{ rssi }}</ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Bars</ion-label>
+      <ion-note item-end>{{ bars }}</ion-note>
+    </ion-item>
+  </ion-list>
 </ion-content>
