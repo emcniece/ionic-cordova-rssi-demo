@@ -9,7 +9,7 @@
 <ion-content padding>
   <p>Demonstrates cordova-plugin-rssi.</p>
 
-  <button ion-button (click)="fetch()">Read RSSI Data</button>
+  <button ion-button (click)="read()">Read RSSI Data</button>
 
   <ion-list>
     <ion-item>
@@ -24,6 +24,11 @@
     <ion-item>
       <ion-label>Bars</ion-label>
       <ion-note item-end>{{ bars }}</ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Is iPhone X</ion-label>
+      <ion-note item-end>{{ isIPhoneX }}</ion-note>
     </ion-item>
   </ion-list>
 </ion-content>

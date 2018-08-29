@@ -9,6 +9,7 @@ const MockRSSI = {
     const response = {
       rssi: null,
       bars: null,
+      isIPhoneX: false,
     };
 
     console.warn('MockRSSI Read:', response);
@@ -23,6 +24,7 @@ const MockRSSI = {
 export class HomePage {
   public rssi: number|string = '-';
   public bars: number|string = '-';
+  public isIPhoneX: boolean;
   private RSSI: any;
   public countdown = 10;
 
@@ -55,6 +57,7 @@ export class HomePage {
       console.log('RSSI Data:', data);
       this.rssi = data.rssi;
       this.bars = data.bars;
+      this.isIPhoneX = data.isIPhoneX;
     })
   }
 
