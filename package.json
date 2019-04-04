@@ -1,6 +1,6 @@
 {
   "name": "rssi-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
@@ -27,7 +27,7 @@
     "cordova-android": "7.0.0",
     "cordova-browser": "5.0.4",
     "cordova-ios": "4.5.5",
-    "cordova-plugin-add-swift-support": "^1.7.2",
+    "cordova-plugin-add-swift-support": "2.0.1",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.1.2",
     "cordova-plugin-ionic-webview": "^2.0.3",
@@ -53,8 +53,8 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "cordova-plugin-add-swift-support": {},
-      "cordova-plugin-rssi": {}
+      "cordova-plugin-rssi": {},
+      "cordova-plugin-add-swift-support": {}
     },
     "platforms": [
       "browser",
